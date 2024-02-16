@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="submitMessage">
+        <h1>Registration Succesfull</h1>
+    </div>
+    <div class="registration">
+        <h2>Registration Form</h2>
+        <div class="user-input">
+            <div class="name">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter Your name" class="contact-name" onkeyup="validateName();">
+                <span class="name-error"></span>
+            </div>
+            <div class="name">
+                <label for="">Username</label>
+                <input type="text" placeholder="Enter Your Username" class="contact-username" onkeyup="validateUser();">
+                <span class="username-error"></span>
+            </div>
+            <div class="name">
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter Your Email" class="contact-email" onkeyup="validateEmail();">
+                <span class="email-error"></span>
+            </div>
+            <div class="name">
+                <label for="">Phone Number</label>
+                <input type="text" placeholder="Enter Your Phone Number" class="contact-phone" onkeyup="validatePhone();">
+                <span class="phone-error"></span>
+            </div>
+            <div class="name">
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter Your Password" class="contact-password" onkeyup="validatePassword();">
+                <span class="password-error"></span>
+
+            </div>
+            <div class="name">
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="Enter Your Password" class="contact-confirm" onkeyup="validateConfirm();">
+                <span class="confirm-error"></span>
+
+            </div>
+        </div>
+        <div class="gender-section">
+            <h3>Gender</h3>
+            <div class="gender">
+                <div class="male">
+                    <input class="male-radio-btn" type="radio" id="male" name="gender" value="male" onchange="validateGender()">
+                    <label for="male">Male</label>
+                </div>
+                <div class="female">
+                    <input class="female-radio-btn" type="radio" id="female" name="gender" value="female" onchange="validateGender()">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <span class="gender-error"></span>
+        </div>
+        <div class="submit-btn">
+            <button onclick="validateForm()">Register</button>
+
+        </div>
+        <!-- <span class="error"></span> -->
+    </div>
+
+
+
+
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+[
+    {
+        "id":1,
+        "name":"Red printed T-shirts",
+        "price": 1000,
+        "image":"images/product-1.jpg"
+    },
+    {
+        "id":2,
+        "name":"HRX Black Shoe",
+        "price":1200,
+        "image":"images/product-2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Charcoal Trouser",
+        "price":600,
+        "image":"images/product-3.jpg"
+    },
+    {
+        "id":4,
+        "name":"Puma Polo T-shirt",
+        "price":2200,
+        "image":"images/product-4.jpg"
+    },
+    {
+        "id":5,
+        "name":"Grey Shoe",
+        "price":1400,
+        "image":"images/product-5.jpg"
+    },
+    {
+        "id":6,
+        "name":"Puma Black T-Shirt",
+        "price":3200,
+        "image":"images/product-6.jpg"
+    },
+    {
+        "id":7,
+        "name":"HRX Socks",
+        "price":800,
+        "image":"images/product-7.jpg"
+    },
+    {
+        "id":8,
+        "name":"Fossil Black Watch",
+        "price":10000,
+        "image":"images/product-8.jpg"
+    },
+    {
+        "id":9,
+        "name":"RoadStar Black Watch",
+        "price":1500,
+        "image":"images/product-9.jpg"
+    },
+    {
+        "id":10,
+        "name":"HRX Red-Black Shoe",
+        "price":200,
+        "image":"images/product-10.jpg"
+    },
+    {
+        "id":11,
+        "name":"Gery Trouser",
+        "price":900,
+        "image":"images/product-11.jpg"
+    },
+    {
+        "id":12,
+        "name":"Nike Black Trouser",
+        "price":2500,
+        "image":"images/product-12.jpg"
+    }
+]
+
